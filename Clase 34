@@ -1,0 +1,64 @@
+
+//1) Programa una función que cuente el número de caracteres de una cadena de texto, pe. miFuncion("Hola Mundo") devolverá 10.
+
+const miFuncion = (a) =>{
+    let i = 0
+    while(a[i] !== undefined){
+        i++
+    }
+    return i
+}
+console.log(miFuncion("Hola Mundo"))
+
+//2) Programa una función que te devuelva el texto recortado según el número de caracteres indicados, pe. miFuncion("Hola Mundo", 4) devolverá "Hola".
+
+/*  const miFuncion = (a,b) => {
+     let i = 0
+     let recorte = ''
+     while(i <= b){
+        recorte = recorte + a[i]
+     }
+     return recorte
+ }
+ console.log(miFuncion("Hola Mundo")) */
+
+//3) Programa una función que dada una String te devuelva un Array de textos separados por cierto caracter, pe. miFuncion('hola que tal', ' ') devolverá ['hola', 'que', 'tal'].
+
+/* const miFuncion = (a,b) => {
+  let i = 0
+  let laPalabra = ''
+  let vector = []
+  let e = 0
+  let u = 0
+  while(a[u] !== undefined){
+      u++
+  }
+  while(i < u){  
+      laPalabra = ''
+  while(i < u && a[i] !== b){
+    laPalabra = laPalabra + a[i]
+    i++
+  }
+  vector[e] = laPalabra
+  e++
+  i++
+} 
+  return vector
+}
+
+console.log(miFuncion('hola que tal', ' ')) */
+
+//4) Programa una función que repita un texto X veces, pe. miFuncion('Hola Mundo', 3) devolverá Hola Mundo Hola Mundo Hola Mundo.
+
+/* const miFuncion = (a,b) => {
+  let texto = ''
+  for(let i = 0; i <= b; i++){
+    if(i<b){
+     texto = texto  + a + ' '
+    } else {
+     texto = texto  + a 
+    }
+  }
+  return texto
+}
+console.log(miFuncion('Hola Mundo',3)) */
